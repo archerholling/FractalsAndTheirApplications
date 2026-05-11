@@ -1,0 +1,18 @@
+# Fractals and Their Applications
+
+This repository contains Python code used for the computational analysis in my honours thesis on fractals and their applications to financial time series.
+
+## Files
+
+- `src/silver_fractal_analysis.py`  
+  Performs fractal and stochastic analysis of silver price dynamics, including Hurst exponent estimation, DFA, MF-DFA, distributional testing, variance scaling, simulated comparisons, and figure/table generation.
+
+- `src/btc_full_analysis.py`  
+  Performs a full Bitcoin fractal analysis pipeline, including R/S scaling, global and rolling Hurst exponent estimation, structural breakpoint analysis, regime comparison, and figure/table generation.
+
+## Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
