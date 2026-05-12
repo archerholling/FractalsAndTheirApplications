@@ -27,7 +27,9 @@ import matplotlib.patches as mpatches
 from scipy import stats
 from pathlib import Path
 
-OUTPUT_DIR = Path("outputs/btc")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = BASE_DIR / "data" / "BTC-USD_closing.xlsx"
+OUTPUT_DIR = BASE_DIR / "outputs" / "btc"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 TICKER      = "BTC-USD"
 START_DATE  = "2015-01-01"
