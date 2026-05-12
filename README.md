@@ -13,6 +13,7 @@ This repository contains Python code used for the computational analysis in my h
 ## Data
 
 The Bitcoin analysis uses `data/BTC-USD_closing.xlsx`, containing BTC-USD closing price data and log returns.
+The silver analysis uses the Yahoo Finance ticker `SI=F` for silver futures price data.
 
 ## Running the scripts
 
