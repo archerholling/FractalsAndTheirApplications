@@ -16,3 +16,7 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
+
+## Data
+
+The Bitcoin analysis uses `data/BTC-USD_closing.xlsx`, containing BTC-USD closing price data and log returns.
