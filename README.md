@@ -10,13 +10,21 @@ This repository contains Python code used for the computational analysis in my h
 - `src/btc_full_analysis.py`  
   Performs a full Bitcoin fractal analysis pipeline, including R/S scaling, global and rolling Hurst exponent estimation, structural breakpoint analysis, regime comparison, and figure/table generation.
 
+## Data
+
+The Bitcoin analysis uses `data/BTC-USD_closing.xlsx`, containing BTC-USD closing price data and log returns.
+
+## Running the scripts
+
+```bash
+python src/silver_fractal_analysis.py
+python src/btc_full_analysis.py
+```
+
 ## Requirements
 
 Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
-
-## Data
-
-The Bitcoin analysis uses `data/BTC-USD_closing.xlsx`, containing BTC-USD closing price data and log returns.
+```
